@@ -1,0 +1,44 @@
+los arboles 
+
+va de abajo hacia arriba, lo qeu significa:
+                arriba está la raíz 
+                abajo de la raíz van las ramas
+                y abajo de estas estan las hojas, las cuales no tienen ramas
+
+un arbol binario, no tiene mas de dos rams lo que significa:
+        que tiene una rama a la iz y otra a la der
+
+arboles de busqueda binario:
+    tiene un orden en especifico:
+       va de iz a derecha,en la iz estan los menores y en la derecha los mayores
+    Hay algo que se llama insertar:
+        Insertar es ir de arriba hacia abajo, buscando la posicion en donde se quiere insertar la variable
+        (mirar hacia abajo e ir diciendo "¿es mayor o menor ?)
+        Hay 2 "tipos" de arboles:
+           balanceados y no-balanceados:
+              Los no balanceados se pueden obtener al insertar variables que se vayan mucho a un lado
+              (osea que esté mas "pesado"en un lado). La complejidad de este se vuelve O(n) ya que se vuelve casi como una lista
+              Los balanceados son lo contrario. complejidad de O(log(n))
+    En arboles hay algo que se llama "traversing"( me da pereza traducirlo)
+        Esto significa:
+          "walking through a tree"
+        Hay varias maneras de hacerlo, estas son:
+           Preorder:
+              primero vas a la raiz, luego rama iz y al final rama derecha.
+           Inorder:
+              primero rama iz, luego raiz y al final rama derecha.
+           Postorder:
+              primero rama iz, luego rama der, y al final raiz
+           
+        
+
+            
+               
+
+        
+
+
+
+//videos para estudiar que son los arboles
+https://www.youtube.com/watch?v=umTbivyJoiI
+https://www.youtube.com/watch?v=oSWTXtMglKE

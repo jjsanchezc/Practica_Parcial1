@@ -1,0 +1,60 @@
+complejidad
+    pregunta basica:
+         Al hablar de complejidad primero debemos de pensar ¿como crece la grafica al darle muchos datos?
+         https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg
+    
+    Que es la n?:
+        por ejemplo:
+            cuando tenemos un arreglo de n datos, n seria el numero de datos que hay en el arreglo
+            cuando hay 2 arreglos primero se debe de saber quien es mas grande (porque se definirá quien es la n
+              pero si no se sabe, se debe hacer en base de los dos arreglos de n y m tamaños)
+    Tipos de notaciones:
+        O(1):
+            tiempo constante:
+                si le das muchos datos al algoritmo, la grafica siempore será una constante, osea que no importa cuatos
+                le den.
+
+        O(log(n)):
+            tiempo logaritmico:
+                Solo funciona para arboles balanceados.
+                la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+                    binary Search
+
+        O(n):
+            tiempo constante:
+                practicamnete es la recta y=x
+                la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+                   n elementos en un array
+                   n nodos de arboels
+
+        O(n*log(n)):
+            lo que significa n*log(n) es qeu se hace una accion en un tiempo log(n) de n cosas
+            la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+                merge sort
+                quick sort
+        O(n^2):
+            la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+               bubble sort
+               selection sort
+               insertion sort
+            //hay que estudiar mejor esta 
+
+        O(2^n):
+            la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+                recursion
+                backtracking
+        
+        O(n!):
+            la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
+                permutaciones
+    NOTAS:
+       No intentes acordarete de cada cosa.
+       Necesitas saber que está pasando en el codigo 
+       Si te dan el mejor caso, debes saber cual trabaja con esa complejidad
+
+        
+            
+
+
+        //el siguiente video es para entender cada uno de las notaciones:
+            https://www.youtube.com/watch?v=waPQP2TDOGE
