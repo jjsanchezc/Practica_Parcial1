@@ -32,7 +32,9 @@ complejidad
             la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
                 merge sort
                 quick sort
+
         O(n^2):
+            Se puede ver como el area de un cuadrado
             la mayoria de veces que nos den esto van a ser las primeras opciones como por ej:
                bubble sort
                selection sort
@@ -55,6 +57,6 @@ complejidad
         
             
 
-
-        //el siguiente video es para entender cada uno de las notaciones:
+//el siguiente video es para entender cada uno de las notaciones:
             https://www.youtube.com/watch?v=waPQP2TDOGE
+            https://www.youtube.com/watch?v=v4cd1O4zkGw
