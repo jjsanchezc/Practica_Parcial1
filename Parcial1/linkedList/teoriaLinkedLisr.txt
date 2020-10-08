@@ -1,0 +1,24 @@
+
+las linked list se basan en nodos que estan conectados entre si, a diferencia de un array, estos no tienen un espacio limitado
+
+TEORIA BASADA DEL LIBRO:
+   Data structure and algorithmic (Python)
+
+Capitulo 3:
+   Linked List:
+      3.1
+       ¿Que es una linked list?:
+            Una Linked List o lista enlazada es una estructura de datos que se utiliza para la coleccion de datos. 
+       Propiedades de las Linked List:
+            -Elementos sucesivos conectados con punteros(pointers)
+            -El ultimo elemento apunta a NULL
+            -Puede agrandarse o acortarse durante la ejecucion de un programa
+            -Puede ser del tamaño deseado(o hasta que el sistema se quede sin espacio)
+            -No malgasta espacio en la memoria (pero toma memoria extra para los punteros )
+      3.2
+        Linked List ADT
+          Operaciones principales para las Linked List
+            -Insertar 
+            -Borrar: 
+          Operaciones auxiliares para las Linked list
+            
